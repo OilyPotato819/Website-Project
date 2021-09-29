@@ -1,13 +1,15 @@
 html {
     background: url(../img/background.jpg) no-repeat center fixed;
     background-size: cover;
+    text-align: center;
 }
 
 a {
     color: white;
     text-decoration: none;
+    margin: 0px 10px 0px 10px
 }
 
 #quiz-link {
-    text-decoration: underline;
+    text-decoration: underline red;
 }

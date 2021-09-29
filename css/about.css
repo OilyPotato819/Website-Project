@@ -1,8 +1,8 @@
 html {
     background: url(../img/background.jpg) no-repeat center fixed;
-    background-size: cover;
     text-align: center;
-    }
+    background-size: cover;
+}
 
 a {
     color: white;
@@ -11,5 +11,5 @@ a {
 }
 
 #about-link {
-    text-decoration: underline;
+    text-decoration: underline red;
 }
