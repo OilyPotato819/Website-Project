@@ -2,16 +2,20 @@ html {
     background: url(../img/background.jpg) no-repeat center fixed;
     background-size: cover;
     text-align: center;
+    font-family: 'sh_pinscherregular';
 }
 
 p {
     color: white;
+    font-size: 20px;
+    margin-top: 250px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    margin: 0px 10px 0px 10px
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
 }
 
 #home-link {

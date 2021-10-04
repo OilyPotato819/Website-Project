@@ -2,6 +2,7 @@ html {
     background: url(../img/background.jpg) no-repeat center fixed;
     background-size: cover;
     text-align: center;
+    font-family: 'sh_pinscherregular';
 }
 
 a {
