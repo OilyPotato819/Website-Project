@@ -1,14 +1,8 @@
 html {
-    background: url(../img/background.jpg) no-repeat center fixed;
+    background: url(../img/home-background.jpg) no-repeat center fixed;
     background-size: cover;
     text-align: center;
     font-family: 'sh_pinscherregular';
-}
-
-p {
-    color: white;
-    font-size: 20px;
-    margin-top: 250px;
 }
 
 a {
@@ -20,4 +14,16 @@ a {
 
 #home-link {
     text-decoration: underline red;
+}
+
+img {
+    margin-top: 371px;
+    margin-left: 13px;
+    width: 20ch;
+    cursor: pointer;
+    clip-path: circle(45%);
+}
+
+p {
+    color: white;
 }

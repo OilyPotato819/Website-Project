@@ -1,16 +1,17 @@
 html {
-    background: url(../img/background.jpg) no-repeat center fixed;
+    background: url(../img/other-background.png) no-repeat center fixed;
     background-size: cover;
     text-align: center;
     font-family: 'sh_pinscherregular';
-    }
+}
 
 a {
     color: white;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
+    font-size: 20px;
 }
 
 #about-link {
-    text-decoration: underline;
+    text-decoration: underline red;
 }
