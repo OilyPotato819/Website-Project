@@ -15,3 +15,46 @@ a {
 #about-link {
     text-decoration: underline red;
 }
+
+div {
+    background: rgb(255, 255, 255, 0.6);
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#about-title{
+    background: darkslategrey;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-weight: normal;
+}
+
+hr {
+    width: 30%;
+    border-color: lightgrey;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    width: 30%;
+}
+
+#long-img {
+    width: 500px;
+}
