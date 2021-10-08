@@ -9,9 +9,13 @@ a {
     color: white;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
-    font-size: 20px;
+    font-size: 1.8vw;
 }
 
 #quiz-link {
     text-decoration: underline red;
+}
+
+#home-link {
+    margin-left: 37px;
 }

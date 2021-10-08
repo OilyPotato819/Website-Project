@@ -8,8 +8,8 @@ html {
 a {
     color: white;
     text-decoration: none;
-    margin: 0px 10px 0px 10px;
-    font-size: 20px;
+    margin-right: 20px;
+    font-size: 1.8vw;
 }
 
 #about-link {
@@ -21,12 +21,13 @@ div {
     border-radius: 25px;
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 2%;
+    margin-top: 1%;
 }
 
 #about-title{
     background: darkslategrey;
-    border-radius: 20px;
+    border-radius: 25px;
     width: 30%;
     margin: auto;
     color: white;
@@ -35,26 +36,49 @@ div {
 
 hr {
     width: 30%;
-    border-color: lightgrey;
+    border-color: darkslategrey;
     margin-top: 20px;
 }
 
 h1 {
     margin: 0px;
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 2%;
 }
 
 h3 {
     margin: 0px;
+    font-size: 1.8vw;
 }
 
 p {
-    margin: 0px;
+    margin: auto;
+    width: 80%;
+    font-size: 1.3vw;
 }
 
 img {
-    width: 30%;
+    width: 20%;
+    margin: 2% 0% 2% 2%;
 }
 
-#long-img {
-    width: 500px;
+#pickaxes-img {
+    width: 60%;
+}
+
+#axes-img {
+    width: 40%;
+}
+
+#wall-of-flesh-img {
+    width: 15%;
+}
+
+#plantera-img {
+    width: 17%;
+}
+
+#home-link {
+    margin-left: 37px;
 }
