@@ -19,3 +19,47 @@ a {
 #home-link {
     margin-left: 37px;
 }
+
+div {
+    background: rgb(255, 255, 255, 0.6);
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    padding-top: 2%;
+    margin-top: 1%;
+}
+
+#quiz-title{
+    background: darkslategrey;
+    border-radius: 25px;
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-weight: normal;
+}
+
+hr {
+    width: 30%;
+    border-color: darkslategrey;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+h3 {
+    margin: 0px 0px;
+    font-size: 2vw;
+    text-align: left;
+}
+
+p {
+    margin: 0px 0px;
+    width: 80%;
+    font-size: 1.3vw;
+    text-align: left;
+}
