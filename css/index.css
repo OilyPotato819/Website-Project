@@ -1,6 +1,8 @@
 html {
-    background: url(../img/home-background.jpg) no-repeat center fixed;
-    background-size: cover;
+    background: url(../img/home-background.jpg) center no-repeat;
+    background-size: 110%;
+    background-position-y: 0%;
+    background-color: black;
     text-align: center;
     font-family: 'sh_pinscherregular';
 }
@@ -21,12 +23,13 @@ p {
     position: absolute;
     margin: 20.1% 0% 0% 29.5%;
     width: 40%;
+    font-size: 1.27vw;
 }
 
 img {
     cursor: pointer;
     clip-path: circle(20%);
     width: 26%;
-    margin: 24% 0% 0% 1%;
-    background: rgb(0, 0, 0, 0,8);
+    margin: 23.7% 0% 0% 1%;
+    background: rgb(255, 255, 255, 0.5);
 }
