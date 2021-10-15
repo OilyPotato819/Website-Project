@@ -9,18 +9,14 @@ a {
     color: white;
     text-decoration: none;
     margin: 0px 10px 0px 10px;
-    font-size: 1.8vw;
+    font-size: 25px;
 }
 
 #quiz-link {
     text-decoration: underline red;
 }
 
-#home-link {
-    margin-left: 37px;
-}
-
-div {
+#not-links {
     background: rgb(255, 255, 255, 0.6);
     border-radius: 25px;
     width: 80%;
@@ -62,4 +58,11 @@ p {
     width: 80%;
     font-size: 1.3vw;
     text-align: left;
+}
+
+#links {
+    background: rgb(32, 85, 199);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
 }

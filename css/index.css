@@ -1,8 +1,6 @@
 html {
-    background: url(../img/home-background.jpg) center no-repeat;
-    background-size: 110%;
-    background-position-y: 0%;
-    background-color: black;
+    background: url(../img/home-background.jpg) fixed center no-repeat;
+    background-size: 100%;
     text-align: center;
     font-family: 'sh_pinscherregular';
 }
@@ -11,7 +9,7 @@ a {
     color: white;
     text-decoration: none;
     margin: 0px 10px;
-    font-size: 1.8vw;
+    font-size: 25px;
 }
 
 #home-link {
@@ -29,7 +27,14 @@ p {
 img {
     cursor: pointer;
     clip-path: circle(20%);
-    width: 26%;
-    margin: 23.7% 0% 0% 1%;
+    width: 209.5px;
+    margin: 200px 0 0 14px;
     background: rgb(255, 255, 255, 0.5);
+}
+
+div {
+    background: rgb(24, 93, 241);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
 }

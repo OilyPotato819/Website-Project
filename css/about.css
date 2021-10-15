@@ -5,81 +5,82 @@ html {
     font-family: 'sh_pinscherregular';
 }
 
-a {
+body {
+    padding: 0 10%;
+}
+
+.links {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
-    font-size: 1.8vw;
+    font-size: 25px;
+    margin: 10px;
 }
 
 #about-link {
     text-decoration: underline red;
 }
 
-div {
+#not-links {
     background: rgb(255, 255, 255, 0.6);
     border-radius: 25px;
-    width: 80%;
     margin: auto;
-    padding-top: 2%;
+    padding: 2% 10%;
     margin-top: 1%;
 }
 
 #about-title{
     background: darkslategrey;
     border-radius: 25px;
-    width: 30%;
+    width: 300px;
     margin: auto;
     color: white;
     font-weight: normal;
 }
 
 hr {
-    width: 30%;
+    width: 310px;
     border-color: darkslategrey;
     margin-top: 20px;
 }
 
 h1 {
-    margin: 0px;
-    font-size: 3vw;
+    font-size: 40px;
     text-decoration: underline;
     margin-bottom: 2%;
 }
 
 h3 {
-    margin: 0px;
-    font-size: 1.8vw;
+    font-size: 25px;
 }
 
 p {
-    margin: auto;
-    width: 80%;
-    font-size: 1.3vw;
+    font-size: 18px;
     text-align: left;
 }
 
 img {
-    width: 20%;
-    margin: 2% 0% 2% 2%;
+    width: 200px;
 }
 
 #pickaxes-img {
-    width: 60%;
+    width: 100%;
 }
 
 #axes-img {
-    width: 40%;
+    width: 60%;
 }
 
 #wall-of-flesh-img {
-    width: 15%;
+    width: 150px;
 }
 
 #plantera-img {
-    width: 17%;
+    width: 170px;
 }
 
-#home-link {
-    margin-left: 37px;
+#links {
+    background: rgb(32, 85, 199);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
 }
