@@ -28,7 +28,7 @@ img {
     cursor: pointer;
     clip-path: circle(20%);
     width: 209.5px;
-    margin: 200px 0 0 14px;
+    position: absolute;
     background: rgb(255, 255, 255, 0.5);
 }
 
