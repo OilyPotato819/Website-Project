@@ -29,4 +29,8 @@ function resizeHandler() {
     linkEls.style.marginTop = (0.04 * heightOfBackground + topSection) + "px";
 
     quoteEl.style.top = (0.01 * heightOfBackground + topSection) + "px";
+    
+    if (window.innerWidth < 1200) {
+    document.body.style.backgroundSize.length = 1200 + "px";
+  }
 }
