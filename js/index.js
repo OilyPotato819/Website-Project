@@ -19,18 +19,27 @@ window.addEventListener("load", resizeHandler);
 window.addEventListener("resize", resizeHandler);
 
 function resizeHandler() {
-    let heightOfBackground = window.innerWidth * 0.625
-    let topSection = (window.innerHeight - heightOfBackground) / 2
+    if ((window.innerHeight / window.innerWidth) < 0.625) {
+        let widthOfBackground = window.innerHeight * 1.6
+        let leftSection = (window.innerWidth - widthOfBackground) / 2
 
-    eyeBtn.style.width = (0.232 * window.innerWidth) + "px";
-    eyeBtn.style.top = (0.40 * heightOfBackground + topSection) + "px";
-    eyeBtn.style.left = (0.389 * window.innerWidth) + "px";
+        document.body.style.backgroundSize = "contain";
 
-    linkEls.style.marginTop = (0.04 * heightOfBackground + topSection) + "px";
+        eyeBtn.style.width = (0.136 * window.innerHeight) + "px";
+        eyeBtn.style.left = (0.463 * widthOfBackground + leftSection + "px");
+        eyeBtn.style.top = (0.483 * window.innerHeight) + "px";
 
-    quoteEl.style.top = (0.01 * heightOfBackground + topSection) + "px";
-    
-    if (window.innerWidth < 1200) {
-    document.body.style.backgroundSize.length = 1200 + "px";
-  }
+        document.get
+    } else {
+        let heightOfBackground = window.innerWidth * 0.625
+        let topSection = (window.innerHeight - heightOfBackground) / 2
+
+        eyeBtn.style.width = (0.086 * window.innerWidth) + "px";
+        eyeBtn.style.top = (0.482 * heightOfBackground + topSection) + "px";
+        eyeBtn.style.left = (0.462 * window.innerWidth) + "px";
+
+        linkEls.style.marginTop = (0.03 * heightOfBackground + topSection) + "px";
+
+        quoteEl.style.top = (0.008 * heightOfBackground + topSection) + "px";
+    }
 }

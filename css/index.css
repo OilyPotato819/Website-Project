@@ -19,17 +19,16 @@ a {
 #quote {
     color: white;
     position: absolute;
-    margin: 20.1% 0% 0% 29.5%;
+    margin-left: 29.5%;
     width: 40%;
     font-size: 1.27vw;
 }
 
 img {
     cursor: pointer;
-    clip-path: circle(20%);
-    top: 360px;
+    clip-path: circle(50%);
     position: absolute;
-    /* background: rgb(255, 255, 255, 0.5); */
+    background: rgb(255, 255, 255, 0.5);
 }
 
 div {
