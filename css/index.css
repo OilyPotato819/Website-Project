@@ -1,5 +1,5 @@
-html {
-    background: url(../img/home-background.jpg) fixed center no-repeat;
+body {
+    background: url(../img/home-background.jpg) fixed center no-repeat rgb(42, 84, 177);
     background-size: 100%;
     text-align: center;
     font-family: 'sh_pinscherregular';
@@ -16,7 +16,7 @@ a {
     text-decoration: underline red;
 }
 
-p {
+#quote {
     color: white;
     position: absolute;
     margin: 20.1% 0% 0% 29.5%;
@@ -27,7 +27,9 @@ p {
 img {
     cursor: pointer;
     clip-path: circle(20%);
-    width: 209.5px;
+    width: 195px;
+    top: 424px;
+    left: 307px;
     position: absolute;
     background: rgb(255, 255, 255, 0.5);
 }

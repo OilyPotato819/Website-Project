@@ -18,10 +18,12 @@ window.addEventListener("load", resizeHandler);
 window.addEventListener("resize", resizeHandler);
 
 function resizeHandler() {
-    eyeBtn.style.width = (0.23 * document.getElementById("background")) + "px";
-    eyeBtn.style.top = (0.283 * window.innerWidth) + "px";
-    eyeBtn.style.left = (0.39 * window.innerWidth) + "px";
-    console.log("width = " + document.body.style.width)
+    let documentRatio = document.body.clientHeight / document.body.clientWidth
+    // eyeBtn.style.width = (1990 * documentRatio) + "px";
+    // eyeBtn.style.top = (4350 * documentRatio) + "px";
+    // eyeBtn.style.left = (3180 * documentRatio) + "px";
+    console.log("width = " + eyeBtn.style.width)
     console.log("top = " + eyeBtn.style.top)
     console.log("left = " + eyeBtn.style.left)
+    console.log("number = " + documentRatio + "px")
 }
