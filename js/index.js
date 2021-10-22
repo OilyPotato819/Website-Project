@@ -42,8 +42,6 @@ function resizeHandler() {
     eyeBtn.style.top = 0.482 * heightOfBackground + topOverflow + "px";
     eyeBtn.style.left = 0.462 * window.innerWidth + "px";
 
-    linkEls.style.marginTop = 0.03 * heightOfBackground + topOverflow + "px";
-
     quoteEl.style.top = 0.32 * heightOfBackground + topOverflow + "px";
     quoteEl.style.left = 0.3 * innerWidth + "px";
     quoteEl.style.width = "40%";

@@ -25,11 +25,11 @@ img {
     cursor: pointer;
     clip-path: circle(50%);
     position: absolute;
-    background: rgb(255, 255, 255, 0.5);
+    /* background: rgb(255, 255, 255, 0.5); */
 }
 
 div {
-    background: rgb(24, 93, 241);
+    background: rgb(42, 84, 177);
     width: 220px;
     border-radius: 10px;
     margin: auto;
