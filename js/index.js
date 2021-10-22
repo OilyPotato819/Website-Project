@@ -18,28 +18,34 @@ function quoteFunction() {
 window.addEventListener("load", resizeHandler);
 window.addEventListener("resize", resizeHandler);
 
+
 function resizeHandler() {
-    if ((window.innerHeight / window.innerWidth) < 0.625) {
-        let widthOfBackground = window.innerHeight * 1.6
-        let leftSection = (window.innerWidth - widthOfBackground) / 2
+    if (window.innerHeight / window.innerWidth < 0.625) {
+        let widthOfBackground = window.innerHeight * 1.6;
+        let leftSection = (window.innerWidth - widthOfBackground) / 2;
 
         document.body.style.backgroundSize = "contain";
 
-        eyeBtn.style.width = (0.136 * window.innerHeight) + "px";
-        eyeBtn.style.left = (0.463 * widthOfBackground + leftSection + "px");
-        eyeBtn.style.top = (0.483 * window.innerHeight) + "px";
+        eyeBtn.style.width = 0.136 * window.innerHeight + "px";
+        eyeBtn.style.left = 0.463 * widthOfBackground + leftSection + "px";
+        eyeBtn.style.top = 0.483 * window.innerHeight + "px";
 
-        document.get
+        quoteEl.style.top = 0.3 * innerHeight + "px";
+        quoteEl.style.width = "40%";
+        quoteEl.style.fontSize = 0.02 * widthOfBackground + "px";
+        quoteEl.style.left =  + "px"
     } else {
         let heightOfBackground = window.innerWidth * 0.625
         let topSection = (window.innerHeight - heightOfBackground) / 2
 
-        eyeBtn.style.width = (0.086 * window.innerWidth) + "px";
-        eyeBtn.style.top = (0.482 * heightOfBackground + topSection) + "px";
-        eyeBtn.style.left = (0.462 * window.innerWidth) + "px";
+        eyeBtn.style.width = 0.086 * window.innerWidth + "px";
+        eyeBtn.style.top = 0.482 * heightOfBackground + topSection + "px";
+        eyeBtn.style.left = 0.462 * window.innerWidth + "px";
 
-        linkEls.style.marginTop = (0.03 * heightOfBackground + topSection) + "px";
+        linkEls.style.marginTop = 0.03 * heightOfBackground + topSection + "px";
 
-        quoteEl.style.top = (0.008 * heightOfBackground + topSection) + "px";
+        quoteEl.style.top = 0.32 * heightOfBackground + topSection + "px";
+        quoteEl.style.fontSize = "1.27vw";
+        quoteEl.style.width = "40%";
     }
 }
