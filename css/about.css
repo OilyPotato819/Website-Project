@@ -9,6 +9,13 @@ body {
     padding: 0 10%;
 }
 
+#links-div {
+    background: rgb(42, 84, 177);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
+}
+
 .links {
     color: white;
     text-decoration: none;
@@ -20,7 +27,7 @@ body {
     text-decoration: underline red;
 }
 
-#not-links {
+#not-links-div {
     background: rgb(255, 255, 255, 0.6);
     border-radius: 25px;
     margin: auto;
@@ -76,11 +83,4 @@ img {
 
 #plantera-img {
     width: 170px;
-}
-
-#links {
-    background: rgb(42, 84, 177);
-    width: 220px;
-    border-radius: 10px;
-    margin: auto;
 }

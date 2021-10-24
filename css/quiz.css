@@ -5,64 +5,70 @@ html {
     font-family: 'sh_pinscherregular';
 }
 
-a {
+body {
+    padding: 0 10%;
+}
+
+#links-div {
+    background: rgb(42, 84, 177);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.links {
     color: white;
     text-decoration: none;
-    margin: 0px 10px 0px 10px;
     font-size: 25px;
+    margin: 10px;
 }
 
 #quiz-link {
     text-decoration: underline red;
 }
 
-#not-links {
+#not-links-div {
     background: rgb(255, 255, 255, 0.6);
     border-radius: 25px;
-    width: 80%;
     margin: auto;
-    padding-top: 2%;
+    padding: 2% 10%;
     margin-top: 1%;
 }
 
 #quiz-title{
     background: darkslategrey;
     border-radius: 25px;
-    width: 30%;
+    width: 300px;
     margin: auto;
     color: white;
     font-weight: normal;
 }
 
 hr {
-    width: 30%;
+    width: 310px;
     border-color: darkslategrey;
     margin-top: 20px;
 }
 
 h1 {
-    margin: 0px;
-    font-size: 3vw;
+    font-size: 40px;
     text-decoration: underline;
     margin-bottom: 2%;
 }
 
 h3 {
-    margin: 0px 0px;
-    font-size: 2vw;
-    text-align: left;
+    font-size: 25px;
 }
 
 p {
-    margin: 0px 0px;
-    width: 80%;
-    font-size: 1.3vw;
+    font-size: 18px;
     text-align: left;
 }
 
-#links {
-    background: rgb(42, 84, 177);
-    width: 220px;
-    border-radius: 10px;
-    margin: auto;
+.incorrect {
+    border: 2px solid red;
+}
+
+.correct {
+    border: 2px solid green;
 }

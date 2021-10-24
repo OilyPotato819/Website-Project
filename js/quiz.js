@@ -21,10 +21,12 @@ function checkAnswers() {
     if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw") {
         console.log("Question 1: correct")
         correctCounter++
+        inOneEl.className += "correct";
     } else if (inOne === "") {
         console.log("Please fill in this field")
     } else {
         console.log("Question 1: incorrect")
+        inOneEl.className += "incorrect";
     }
 
     // Question 2

@@ -5,6 +5,13 @@ body {
     font-family: 'sh_pinscherregular';
 }
 
+div {
+    background: rgb(42, 84, 177);
+    width: 220px;
+    border-radius: 10px;
+    margin: auto;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -16,11 +23,6 @@ a {
     text-decoration: underline red;
 }
 
-#quote {
-    color: white;
-    position: absolute;
-}
-
 img {
     cursor: pointer;
     clip-path: circle(50%);
@@ -28,9 +30,7 @@ img {
     /* background: rgb(255, 255, 255, 0.5); */
 }
 
-div {
-    background: rgb(42, 84, 177);
-    width: 220px;
-    border-radius: 10px;
-    margin: auto;
+#quote {
+    color: white;
+    position: absolute;
 }
