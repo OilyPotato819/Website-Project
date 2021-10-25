@@ -12,21 +12,26 @@ function checkAnswers() {
     let inThree = inThreeEl.value.toLowerCase();
     let inFour = inFourEl.value.toLowerCase();
 
-    // Declare correctCounter
+    // Declare variables
     let correctCounter = 0;
+    let allInputsFilled = 0;
 
     // Check Inputs
 
     // Question 1
-    if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw") {
+    if (inOne === "") {
+        console.log("Please fill in this field")
+        allInputsFilled++
+    
+    if (allInputsFilled = 0) {
+        if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw") {
         console.log("Question 1: correct")
         correctCounter++
         inOneEl.className += "correct";
-    } else if (inOne === "") {
-        console.log("Please fill in this field")
-    } else {
+        } else {
         console.log("Question 1: incorrect")
         inOneEl.className += "incorrect";
+        }
     }
 
     // Question 2
