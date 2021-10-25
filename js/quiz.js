@@ -18,56 +18,68 @@ function checkAnswers() {
 
     // Check Inputs
 
-    // Question 1
-    if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw") {
-        console.log("Question 1: correct")
-        correctCounter++
-        inOneEl.className += "correct";
-    } else if (inOne === "") {
+    // Check if any are empty
+    if (inOne === "") {
         console.log("Please fill in this field")
-    } else {
-        console.log("Question 1: incorrect")
-        inOneEl.className += "incorrect";
+        inputsFilled++;
+    }
+    if (inTwo === "") {
+        console.log("Please fill in this field")
+        inputsFilled++;
+    }
+    if (inThree === "") {
+        console.log("Please fill in this field")
+        inputsFilled++;
+    }
+    if (inFour === "") {
+        console.log("Please fill in this field")
+        inputsFilled++;
     }
 
-    // Question 2
-    if (inTwo === "hammer" || inTwo === "a hammer" || inTwo === "hammers") {
-        console.log("Question 2: correct")
-        correctCounter++
-    } else if (inTwo === "") {
-        console.log("Please fill in this field")
-    } else {
-        console.log("Question 2: incorrect")
-    }
+    if (inputsFilled === 0) {
+        // Question 1
+        if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw") {
+            console.log("Question 1: correct")
+            correctCounter++;
+            inOneEl.className += "correct";
+        } else {
+            console.log("Question 1: incorrect")
+            inOneEl.className += "incorrect";
+        }
 
-    // Question 3
-    if (inThree === "moon lord" || inThree === "the moon lord") {
-        console.log("Question 3: correct")
-        correctCounter++
-    } else if (inThree === "") {
-        console.log("Please fill in this field")
-    } else {
-        console.log("Question 3: incorrect")
-    }
+        // Question 2
+        if (inTwo === "hammer" || inTwo === "a hammer" || inTwo === "hammers") {
+            console.log("Question 2: correct")
+            correctCounter++;
+        } else {
+            console.log("Question 2: incorrect")
+        }
 
-    // Question 4
-    if (inFour === "wall of flesh" || inFour === "the wall of flesh") {
-        console.log("Question 4: correct")
-        correctCounter++
-    } else if (inFour === "") {
-        console.log("Please fill in this field")
-    } else {
-        console.log("Question 4: incorrect")
+        // Question 3
+        if (inThree === "moon lord" || inThree === "the moon lord") {
+            console.log("Question 3: correct")
+            correctCounter++;
+        } else {
+            console.log("Question 3: incorrect")
+        }
+
+        // Question 4
+        if (inFour === "wall of flesh" || inFour === "the wall of flesh") {
+            console.log("Question 4: correct")
+            correctCounter++;
+        } else {
+            console.log("Question 4: incorrect");
+        }
     }
 
     // Calculate percentage
-    let answersRight = "You got " + correctCounter + "/4 (" + correctCounter / 4 * 100 + "%)"
-    console.log(answersRight)
+    let answersRight = "You got " + correctCounter + "/4 (" + correctCounter / 4 * 100 + "%)";
+    console.log(answersRight);
 
     // Pass or Fail
     if (correctCounter >= 2) {
-        console.log("You passed! Good work!")
+        console.log("You passed! Good work!");
     } else {
-        console.log("You failed. Bad work.")
+        console.log("You failed. Bad work.");
     }
 }
