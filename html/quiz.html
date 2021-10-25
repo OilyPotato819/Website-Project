@@ -19,26 +19,36 @@
 
     <div id="not-links-div">
         <h1 id="quiz-title">Terraria Quiz</h1>
-        <hr>
+        <hr id="title-hr">
 
         <h3>Question 1</h3>
         <p>What is the fastest pickaxe in Terraria?</p>
-        <p>Answer: <input id="in-one" type="text"></p>
+        <p>Answer: <input id="in-one" type="text"> <span class="incorrect-answer" id=one-corrected></span></p>
+        <p class="incorrect-answer" id="one-answer"></p>
+        <hr>
 
         <h3>Question 2</h3>
         <p>What can you use to break background walls?</p>
-        <p>Answer: <input id="in-two" type="text"></p>
+        <p>Answer: <input id="in-two" type="text"> <span class="incorrect-answer" id=two-corrected></span></p>
+        <p class="incorrect-answer" id="two-answer"></p>
+        <hr>
 
         <h3>Question 3</h3>
         <p>Which boss do you need to defeat to beat the game?</p>
-        <p>Answer: <input id="in-three" type="text"></p>
+        <p>Answer: <input id="in-three" type="text"> <span class="incorrect-answer" id=three-corrected></span></p>
+        <p class="incorrect-answer" id="three-answer"></p>
+        <hr>
 
         <h3>Question 4</h3>
         <p>Which boss enables Hardmode?</p>
-
-        <p>Answer: <input id="in-four" type="text"></p>
+        <p>Answer: <input id="in-four" type="text"> <span class="incorrect-answer" id=four-corrected></span></p>
+        <p class="incorrect-answer" id="four-answer"></p>
+        <hr>
 
         <button id="submit-btn">Submit</button>
+
+        <h3 id="answers-right"></p>
+        <h3 id="pass-or-fail"></p>
     </div>
 
     <script src="../js/quiz.js"></script>

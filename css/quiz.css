@@ -44,7 +44,7 @@ body {
     font-weight: normal;
 }
 
-hr {
+#title-hr {
     width: 310px;
     border-color: darkslategrey;
     margin-top: 20px;
@@ -58,11 +58,17 @@ h1 {
 
 h3 {
     font-size: 25px;
+    margin-top: 0px;
+    text-align: left;
 }
 
 p {
     font-size: 18px;
     text-align: left;
+}
+
+.incorrect-answer {
+    color: red;
 }
 
 .incorrect {
