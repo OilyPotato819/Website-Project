@@ -3,11 +3,14 @@ html {
     background-size: cover;
     text-align: center;
     font-family: 'sh_pinscherregular';
-    overflow: hidden;
 }
 
 body {
     padding: 0 10%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 #links-div {

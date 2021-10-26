@@ -1,11 +1,17 @@
+// Website Project
+
+// Declare Variables
 let quoteEl = document.getElementById("quote")
 let eyeBtn = document.getElementById("eyemg")
 let linkEls = document.getElementById("links")
 
+// Make sure quote is invisible
 quoteEl.style.display = "none"
 
+// Event Listener
 document.getElementById("eyemg").addEventListener("click", quoteFunction)
 
+// Function to display and hide quote
 function quoteFunction() {
     if (quoteEl.style.display === "none") {
         quoteEl.style.display = "block"
@@ -18,7 +24,7 @@ function quoteFunction() {
 window.addEventListener("load", resizeHandler);
 window.addEventListener("resize", resizeHandler);
 
-
+// Function to resize everything according to window
 function resizeHandler() {
   if (window.innerHeight / window.innerWidth < 0.625) {
     let widthOfBackground = window.innerHeight * 1.6;

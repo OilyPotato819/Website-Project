@@ -2,12 +2,15 @@ html {
     background: url(../img/other-background.png) no-repeat center fixed;
     background-size: cover;
     text-align: center;
-    font-family: 'sh_pinscherregular';
-    overflow: hidden;
+    font-family: "sh_pinscherregular";
 }
 
 body {
     padding: 0 10%;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 #links-div {
@@ -20,8 +23,8 @@ body {
 .links {
     color: white;
     text-decoration: none;
-    font-size: 25px;
     margin: 10px;
+    font-size: 25px;
 }
 
 #quiz-link {
@@ -66,6 +69,12 @@ h3 {
 p {
     font-size: 18px;
     text-align: left;
+}
+
+input {
+    font-family: "sh_pinscherregular";
+    font-size: 15px;
+    height: 15px;
 }
 
 button {

@@ -1,3 +1,6 @@
+// Website Project
+
+// Declare variables
 let inOneEl = document.getElementById("in-one");
 let inTwoEl = document.getElementById("in-two");
 let inThreeEl = document.getElementById("in-three");
@@ -13,8 +16,10 @@ let fourAnswerEl = document.getElementById("four-answer");
 let passOrFailEl = document.getElementById("pass-or-fail");
 let answersRightEl = document.getElementById("answers-right");
 
+// Event Listener
 document.getElementById("submit-btn").addEventListener("click", checkAnswers);
 
+// Function to check all the inputs
 function checkAnswers() {
   // Convert inputs to lower case
   let inOne = inOneEl.value.toLowerCase();
@@ -30,28 +35,24 @@ function checkAnswers() {
 
   // Check if any are empty
   if (inOne === "") {
-    console.log("Please fill in this field");
     document.getElementById("star-one").innerHTML = "*";
     inputsFilled++;
   } else {
     document.getElementById("star-one").innerHTML = "";
   }
   if (inTwo === "") {
-    console.log("Please fill in this field");
     document.getElementById("star-two").innerHTML = "*";
     inputsFilled++;
   } else {
     document.getElementById("star-two").innerHTML = "";
   }
   if (inThree === "") {
-    console.log("Please fill in this field");
     document.getElementById("star-three").innerHTML = "*";
     inputsFilled++;
   } else {
     document.getElementById("star-three").innerHTML = "";
   }
   if (inFour === "") {
-    console.log("Please fill in this field");
     document.getElementById("star-four").innerHTML = "*";
     inputsFilled++;
   } else {
@@ -62,14 +63,12 @@ function checkAnswers() {
     // Question 1
     if (inOne === "shroomite digging claw" || inOne === "the shroomite digging claw" || inOne === "shroomite"
     ) {
-      console.log("Question 1: correct");
       inOneEl.style.border = "2px solid green";
       oneCorrectedEl.innerHTML = "Correct";
       oneCorrectedEl.style.color = "green";
       oneAnswerEl.innerHTML = "";
       correctCounter++;
     } else {
-      console.log("Question 1: incorrect");
       inOneEl.style.border = "2px solid red";
       oneCorrectedEl.innerHTML = "Incorrect";
       oneCorrectedEl.style.color = "red";
@@ -78,14 +77,12 @@ function checkAnswers() {
 
     // Question 2
     if (inTwo === "hammer" || inTwo === "a hammer" || inTwo === "hammers") {
-      console.log("Question 2: correct");
       inTwoEl.style.border = "2px solid green";
       twoCorrectedEl.innerHTML = "Correct";
       twoCorrectedEl.style.color = "green";
       twoAnswerEl.innerHTML = "";
       correctCounter++;
     } else {
-      console.log("Question 2: incorrect");
       inTwoEl.style.border = "2px solid red";
       twoCorrectedEl.innerHTML = "Incorrect";
       twoCorrectedEl.style.color = "red";
@@ -94,14 +91,12 @@ function checkAnswers() {
 
     // Question 3
     if (inThree === "moon lord" || inThree === "the moon lord") {
-      console.log("Question 3: correct");
       inThreeEl.style.border = "2px solid green";
       threeCorrectedEl.innerHTML = "Correct";
       threeCorrectedEl.style.color = "green";
       threeAnswerEl.innerHTML = "";
       correctCounter++;
     } else {
-      console.log("Question 3: incorrect");
       inThreeEl.style.border = "2px solid red";
       threeCorrectedEl.innerHTML = "Incorrect";
       threeCorrectedEl.style.color = "red";
@@ -110,14 +105,12 @@ function checkAnswers() {
 
     // Question 4
     if (inFour === "wall of flesh" || inFour === "the wall of flesh") {
-      console.log("Question 4: correct");
       inFourEl.style.border = "2px solid green";
       fourCorrectedEl.innerHTML = "Correct";
       fourCorrectedEl.style.color = "green";
       fourAnswerEl.innerHTML = "";
       correctCounter++;
     } else {
-      console.log("Question 4: incorrect");
       inFourEl.style.border = "2px solid red";
       fourCorrectedEl.innerHTML = "Incorrect";
       fourCorrectedEl.style.color = "red";
@@ -126,7 +119,6 @@ function checkAnswers() {
 
     // Calculate percentage
     let answersRight = "You got " + correctCounter + "/4 (" + (correctCounter / 4) * 100 + "%)";
-    console.log(answersRight);
 
     // Pass or Fail
     if (correctCounter >= 2) {
@@ -139,6 +131,8 @@ function checkAnswers() {
       answersRightEl.style.color = "red";
     }
     answersRightEl.innerHTML = answersRight;
+
+    // If not all the inputs are filled
   } else {
     passOrFailEl.innerHTML = "Please answer all the questions";
     passOrFailEl.style.color = "black";
