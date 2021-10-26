@@ -67,14 +67,15 @@ p {
     text-align: left;
 }
 
-.incorrect-answer {
+button {
+    font-family: "sh_pinscherregular";
+    margin: 15px;
+}
+
+.red {
     color: red;
 }
 
-.incorrect {
-    border: 2px solid red;
-}
-
-.correct {
-    border: 2px solid green;
+.center {
+    text-align: center;
 }
