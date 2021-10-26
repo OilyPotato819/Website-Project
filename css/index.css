@@ -3,6 +3,7 @@ body {
     background-size: 100%;
     text-align: center;
     font-family: 'sh_pinscherregular';
+    overflow: hidden;
 }
 
 div {
