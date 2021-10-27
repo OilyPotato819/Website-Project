@@ -42,14 +42,14 @@ body {
 #about-title{
     background: darkslategrey;
     border-radius: 25px;
-    width: 300px;
+    width: 90%;
     margin: auto;
     color: white;
     font-weight: normal;
 }
 
 hr {
-    width: 310px;
+    width: 100%;
     border-color: darkslategrey;
     margin-top: 20px;
 }
