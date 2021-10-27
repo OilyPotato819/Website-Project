@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 ::-webkit-scrollbar {
@@ -42,7 +42,7 @@ body {
 #quiz-title{
     background: darkslategrey;
     border-radius: 25px;
-    width: 100%;
+    width: 90%;
     margin: auto;
     color: white;
     font-weight: normal;

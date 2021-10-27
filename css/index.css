@@ -5,10 +5,6 @@ body {
     font-family: 'sh_pinscherregular';
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 div {
     background: rgb(42, 84, 177);
     width: 220px;
