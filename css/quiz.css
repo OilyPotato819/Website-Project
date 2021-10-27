@@ -42,14 +42,14 @@ body {
 #quiz-title{
     background: darkslategrey;
     border-radius: 25px;
-    width: 300px;
+    width: 100%;
     margin: auto;
     color: white;
     font-weight: normal;
 }
 
 #title-hr {
-    width: 310px;
+    width: 100%;
     border-color: darkslategrey;
     margin-top: 20px;
 }
